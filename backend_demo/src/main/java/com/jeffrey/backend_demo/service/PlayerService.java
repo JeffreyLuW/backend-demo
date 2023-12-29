@@ -1,7 +1,11 @@
 package com.jeffrey.backend_demo.service;
 import com.jeffrey.backend_demo.mapper.PlayerMapper;
 import com.jeffrey.backend_demo.model.Player;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
+
+@Service
 public class PlayerService {
     private PlayerMapper playerMapper;
 
