@@ -6,6 +6,8 @@ public class Player {
     private int apg;
     private int rpg;
 
+    // constructor
+    public Player() {}
     public Player(String name, int ppg, int apg, int rpg) {
         this.name = name;
         this.ppg = ppg;
