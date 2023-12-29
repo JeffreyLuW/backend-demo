@@ -2,7 +2,7 @@
   <div>
     <ul>
       <li v-for="player in players" :key="player.id">
-        {{ player.name }} - PPG: {{ player.ppg }}
+        {{ player.name }} - PPG: {{ player.ppg }} - RPG: {{ player.rpg }} - APG: {{ player.apg }}
       </li>
     </ul>
   </div>
